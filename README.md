@@ -1,4 +1,7 @@
-# test coverage for  [amqplib (v0.5.1)](http://squaremo.github.io/amqp.node/)  [![npm package](https://img.shields.io/npm/v/npmtest-amqplib.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-amqplib) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-amqplib.svg)](https://travis-ci.org/npmtest/node-npmtest-amqplib)
+# npmtest-amqplib
+
+#### basic test coverage for  [amqplib (v0.5.1)](http://squaremo.github.io/amqp.node/)  [![npm package](https://img.shields.io/npm/v/npmtest-amqplib.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-amqplib) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-amqplib.svg)](https://travis-ci.org/npmtest/node-npmtest-amqplib)
+
 #### An AMQP 0-9-1 (e.g., RabbitMQ) library and client.
 
 [![NPM](https://nodei.co/npm/amqplib.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/amqplib)
@@ -83,7 +86,8 @@
         "prepublish": "make",
         "test": "make test"
     },
-    "version": "0.5.1"
+    "version": "0.5.1",
+    "bin": {}
 }
 ```
 
